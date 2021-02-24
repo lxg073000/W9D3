@@ -9,7 +9,8 @@ ul {
   /* justify-content: center; */
   /* border: 10px solid black; */
   margin: 30px;
-  width: 80 px;
+  width: 340px;
+  padding: 0px;
 }
 
 li {
@@ -17,7 +18,23 @@ li {
   border-top: 10px solid black;
   height: 90px;
   width: 90px;
+  background: gray;
+
+}
+
+li:hover {
+  background: rgb(102, 100, 221);
+  cursor: pointer;
+}
+
+li:nth-child(3n) {
+  border-right: 10px solid black;
+}
+
+li:nth-last-child(-n + 3) {
+  border-bottom: 10px solid black;
 }
 
 div {
+  width: 340px;
 }
