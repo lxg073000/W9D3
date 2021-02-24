@@ -1,0 +1,23 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* border: 10px solid black; */
+  margin: 30px;
+  width: 80 px;
+}
+
+li {
+  border-left: 10px solid black;
+  border-top: 10px solid black;
+  height: 90px;
+  width: 90px;
+}
+
+div {
+}
